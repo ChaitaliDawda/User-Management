@@ -1,0 +1,55 @@
+.userFormClass{
+    border: 1px solid;
+    background: lightblue;
+    padding: 1rem;
+
+    label{
+        width: 10rem;
+        display: inline-block;
+        font-weight: 700;
+    }
+
+    label:after{
+        content: '*';
+        color: red;
+    }
+
+    .form-row{
+        margin-top: 1rem;
+    }
+
+    .invalid-feedback{
+        color: red;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input,select{
+        width: 10rem;
+    }
+
+    button{
+        width: 5rem;
+        padding: 0.2rem;
+        background-color: blue;
+        color: white;
+        font-weight: 700;
+        border: none;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+
+    button:hover{
+        color: blue;
+        background-color: white;
+        border: 1px solid;
+    }
+
+    .cancelBtn{
+        background-color: red !important;
+    }
+}
